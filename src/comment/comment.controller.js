@@ -38,12 +38,14 @@ export const addComment = async (req, res) =>{
 }
 
 export const getCommentsByPublication = async (req, res) => {
-    try{
+    try {
         const { publicationId } = req.params;
 
-        const comments = await Comment.find({ publication: publicationId }).sort({createdAt: -1})
+        const comments = await Comment.find({ publication: publicationId })
+            .populate('publication', 'title description')
+            .sort({ createdAt: -1 });
 
-        if(!comments){
+        if (!comments) {
             return res.status(404).json({
                 success: false,
                 message: "No comments found for this publication"
@@ -52,15 +54,16 @@ export const getCommentsByPublication = async (req, res) => {
 
         res.status(200).json({
             success: true,
-            comments
+            data: {
+                comments
+            }
         });
     }
-    catch(error){
+    catch (error) {
         res.status(500).json({
             success: false,
             message: "Error fetching comments",
             error: error.message
-        })
+        });
     }
 }
-

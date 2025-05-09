@@ -6,6 +6,7 @@ import { dbConnection } from "./mongo.js"
 import apiLimiter from "../src/middlewares/rate-limit-validator.js"
 import publicationRouter from "../src/publication/publication.router.js"
 import commentRouter from "../src/comment/comment.router.js"
+import { swaggerDocs, swaggerUi } from "./swagger.js"
 
 const middlewares = (app) => {
     app.use(express.urlencoded({extended: false}))
@@ -19,6 +20,7 @@ const middlewares = (app) => {
 const routes = (app) =>{
     app.use("/blogActivity/v1/publication", publicationRouter)
     app.use("/blogActivity/v1/comment", commentRouter)
+    app.use("/api-docs",swaggerUi.serve,swaggerUi.setup(swaggerDocs))
 }
 
 const conectarDB = async () =>{

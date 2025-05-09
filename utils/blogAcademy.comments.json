@@ -1,0 +1,456 @@
+[{
+  "_id": {
+    "$oid": "681d7f1b5696801aacd6251a"
+  },
+  "userName": "Carlos Gutiérrez",
+  "textComment": "El uso de preprocesadores como SASS ha cambiado completamente mi forma de trabajar. Me permite tener un código más limpio y organizado, lo cual es esencial cuando los proyectos crecen. ¡Definitivamente lo recomiendo!",
+  "publication": {
+    "$oid": "681d7e945696801aacd62513"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:05:47.621Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:05:47.624Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:05:47.624Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d7f2f5696801aacd6251d"
+  },
+  "userName": "María Fernández",
+  "textComment": "Me encanta cómo el diseño de una página web puede transformarse con solo unos pocos cambios en CSS. He empezado a implementar flexbox y grid en mis proyectos y los resultados son impresionantes. ¡CSS es increíble!",
+  "publication": {
+    "$oid": "681d7e945696801aacd62513"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:06:07.293Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:06:07.294Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:06:07.294Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d7f495696801aacd62520"
+  },
+  "userName": "Luis Martínez",
+  "textComment": "HTML es la base de todo, pero CSS es lo que realmente le da vida a la web. Llevo tiempo trabajando con SASS, y me ha facilitado mucho la tarea de mantener el código, especialmente cuando trabajo en equipos grandes.",
+  "publication": {
+    "$oid": "681d7e945696801aacd62513"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:06:33.902Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:06:33.904Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:06:33.904Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d7fd85696801aacd62529"
+  },
+  "userName": "Andrea López",
+  "textComment": "El uso de APIs me ha permitido integrar muchos servicios en mis aplicaciones sin tener que reinventar la rueda. Hace que el desarrollo sea más rápido y eficiente, ¡sin duda una herramienta indispensable!",
+  "publication": {
+    "$oid": "681d7fb95696801aacd62523"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:08:56.557Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:08:56.557Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:08:56.557Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d7fe85696801aacd6252c"
+  },
+  "userName": "Felipe González",
+  "textComment": "Estaba confundido con qué tan complejas podían ser las APIs, pero después de usar algunas en mis proyectos, me di cuenta de lo poderosas que son para la comunicación entre servicios. Es como un puente entre aplicaciones.",
+  "publication": {
+    "$oid": "681d7fb95696801aacd62523"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:09:12.884Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:09:12.885Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:09:12.885Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d7ffa5696801aacd6252f"
+  },
+  "userName": "Sofía Ramírez",
+  "textComment": "Gracias a las APIs, pude integrar la autenticación de Google en mi aplicación sin complicarme mucho. ¡Son esenciales para trabajar con servicios externos de manera ágil!",
+  "publication": {
+    "$oid": "681d7fb95696801aacd62523"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:09:30.381Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:09:30.381Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:09:30.381Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d81915696801aacd62538"
+  },
+  "userName": "Mario Sánchez",
+  "textComment": "Desde que empecé a trabajar con NodeJS y React, la eficiencia de mis aplicaciones web aumentó muchísimo. La comunicación entre el frontend y backend es fluida y rápida.",
+  "publication": {
+    "$oid": "681d816b5696801aacd62532"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:16:17.842Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:16:17.843Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:16:17.843Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d81a85696801aacd6253b"
+  },
+  "userName": "Ana Martínez",
+  "textComment": "Me encanta cómo NodeJS y React se complementan. React me permite crear interfaces interactivas, y NodeJS me facilita la gestión de datos en el servidor. ¡Una combinación perfecta!",
+  "publication": {
+    "$oid": "681d816b5696801aacd62532"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:16:40.656Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:16:40.656Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:16:40.656Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d81bd5696801aacd6253e"
+  },
+  "userName": "Juan Pérez",
+  "textComment": "Full Stack JavaScript ha sido un cambio de juego para mí. Aprender NodeJS y React al mismo tiempo me permitió construir aplicaciones completas y entender todo el flujo de datos.",
+  "publication": {
+    "$oid": "681d816b5696801aacd62532"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:17:01.481Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:17:01.481Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:17:01.481Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d83325696801aacd62548"
+  },
+  "userName": "Javier Gómez",
+  "textComment": "Esta API me ha permitido gestionar el inventario y las ventas de mi negocio de manera mucho más organizada. La integración fue rápida y sin complicaciones. ¡Excelente herramienta!",
+  "publication": {
+    "$oid": "681d83005696801aacd62540"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:23:14.589Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:23:14.590Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:23:14.590Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d834c5696801aacd6254b"
+  },
+  "userName": "Ana Beltrán",
+  "textComment": "La separación clara entre administrador y cliente en esta API me facilita mucho el manejo de permisos y roles. La documentación está muy bien estructurada, lo cual agiliza el desarrollo",
+  "publication": {
+    "$oid": "681d83005696801aacd62540"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:23:40.968Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:23:40.968Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:23:40.968Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d83675696801aacd6254e"
+  },
+  "userName": "Luis Torres",
+  "textComment": "Implementar esta API en nuestro sistema fue un gran acierto. Nos permitió sincronizar nuestras ventas en línea con el inventario físico sin errores y en tiempo real. ¡Altamente recomendable!",
+  "publication": {
+    "$oid": "681d83005696801aacd62540"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:24:07.850Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:24:07.850Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:24:07.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d841a5696801aacd62557"
+  },
+  "userName": "Sofía Méndez",
+  "textComment": "Interfer API me facilitó enormemente el registro de empresas y la generación de reportes. Ahora puedo acceder a información clave de manera rápida y organizada en Excel. ¡Una gran solución para la toma de decisiones!",
+  "publication": {
+    "$oid": "681d83f25696801aacd62551"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:27:06.052Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:27:06.053Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:27:06.053Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d842c5696801aacd6255a"
+  },
+  "userName": "Carlos Herrera",
+  "textComment": "La automatización de reportes en Interfer API nos ayudó a identificar oportunidades de crecimiento en distintas categorías empresariales. Es una herramienta poderosa para el análisis estratégico.",
+  "publication": {
+    "$oid": "681d83f25696801aacd62551"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:27:24.009Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:27:24.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:27:24.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d843d5696801aacd6255d"
+  },
+  "userName": "Mariana López",
+  "textComment": "Me encanta lo intuitiva que es Interfer API para gestionar los datos empresariales. La integración con Excel hace que compartir la información sea muy sencillo y accesible para todo el equipo.",
+  "publication": {
+    "$oid": "681d83f25696801aacd62551"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:27:41.245Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:27:41.246Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:27:41.246Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d85185696801aacd62565"
+  },
+  "userName": "Fernando Aguilar",
+  "textComment": "Este sistema de gestión hotelera transformó la manera en que gestionamos nuestras reservas y la visualización de habitaciones. La interfaz es intuitiva y permite una administración fluida de todas nuestras operaciones hoteleras.",
+  "publication": {
+    "$oid": "681d84cb5696801aacd6255f"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:31:20.277Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:31:20.277Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:31:20.277Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d85355696801aacd62568"
+  },
+  "userName": "Camila Pérez",
+  "textComment": "Me encanta cómo este sistema permite acceder fácilmente a información detallada sobre eventos y habitaciones disponibles. La reserva es rápida y sin complicaciones, ideal para nuestros huéspedes.",
+  "publication": {
+    "$oid": "681d84cb5696801aacd6255f"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:31:49.480Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:31:49.481Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:31:49.481Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d854f5696801aacd6256b"
+  },
+  "userName": "Jorge Ramírez",
+  "textComment": "Implementar este sistema en nuestro hotel ha sido un gran acierto. Nos permitió optimizar el manejo de eventos y habitaciones, mejorando significativamente la experiencia de nuestros clientes.",
+  "publication": {
+    "$oid": "681d84cb5696801aacd6255f"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:32:15.406Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:32:15.406Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:32:15.406Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d86735696801aacd62575"
+  },
+  "userName": "Daniela López",
+  "textComment": "Este sistema facilitó muchísimo la gestión de estudiantes y profesores en nuestra institución. La diferenciación de roles y la seguridad en los accesos realmente marcan la diferencia.",
+  "publication": {
+    "$oid": "681d864c5696801aacd6256e"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:37:07.887Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:37:07.887Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:37:07.887Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d86845696801aacd62578"
+  },
+  "userName": "Raúl Méndez",
+  "textComment": "Implementar esta API en nuestro sistema fue un gran acierto. La autenticación con JWT es segura y el manejo de datos con MongoDB permite consultas rápidas y eficientes.",
+  "publication": {
+    "$oid": "681d864c5696801aacd6256e"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:37:24.820Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:37:24.820Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:37:24.820Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d86d25696801aacd6257e"
+  },
+  "userName": "Laura Sánchez",
+  "textComment": "La integración de esta API en nuestras plataformas fue sencilla y su capacidad para manejar diferentes roles optimizó la administración educativa. ¡Muy recomendada!",
+  "publication": {
+    "$oid": "681d864c5696801aacd6256e"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:38:42.590Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:38:42.591Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:38:42.591Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d87825696801aacd62587"
+  },
+  "userName": "Jorge Ramírez",
+  "textComment": "La almacenadora web ha mejorado enormemente el control de entradas y salidas en nuestra bodega. La interfaz es clara y permite un seguimiento detallado del inventario.",
+  "publication": {
+    "$oid": "681d875c5696801aacd62581"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:41:38.778Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:41:38.779Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:41:38.779Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d87995696801aacd6258a"
+  },
+  "userName": "Ana Morales",
+  "textComment": "Gracias a este sistema, ahora puedo saber exactamente cuántos productos tenemos disponibles y cuáles están próximos a agotarse. Es una gran herramienta para la gestión diaria.",
+  "publication": {
+    "$oid": "681d875c5696801aacd62581"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:42:01.175Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:42:01.176Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:42:01.176Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d87b25696801aacd6258d"
+  },
+  "userName": "Carlos Méndez",
+  "textComment": "La organización del inventario en este sistema es increíblemente intuitiva. Los reportes de movimiento de productos nos han permitido tomar decisiones rápidas y acertadas.",
+  "publication": {
+    "$oid": "681d875c5696801aacd62581"
+  },
+  "dateComment": {
+    "$date": "2025-05-09T04:42:26.853Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:42:26.854Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:42:26.854Z"
+  }
+}]

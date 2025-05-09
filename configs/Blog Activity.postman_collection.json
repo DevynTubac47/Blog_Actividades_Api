@@ -1,0 +1,256 @@
+{
+	"info": {
+		"_postman_id": "d894b36e-1737-4387-a551-53f8a674ef28",
+		"name": "Blog Activity",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37640614"
+	},
+	"item": [
+		{
+			"name": "Publication",
+			"item": [
+				{
+					"name": "Add Publication",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"A Canito le guta la Angie\",\r\n    \"description\":\"En esta publicación hablaremos como niega que le gusta.\",\r\n    \"course\":\"Tecnología\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/blogActivity/v1/publication/addPublication",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"blogActivity",
+								"v1",
+								"publication",
+								"addPublication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Publication by Course",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/blogActivity/v1/publication/Practica Supervisada",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"blogActivity",
+								"v1",
+								"publication",
+								"Practica Supervisada"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Publications",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/blogActivity/v1/publication/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"blogActivity",
+								"v1",
+								"publication",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Publication by ID",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/blogActivity/v1/publication/publication/681d207714ff9f31ef57ed70",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"blogActivity",
+								"v1",
+								"publication",
+								"publication",
+								"681d207714ff9f31ef57ed70"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Publication",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"Procesadores, HTML y CSS\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/blogActivity/v1/publication/updatePublication/681d7e945696801aacd62513",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"blogActivity",
+								"v1",
+								"publication",
+								"updatePublication",
+								"681d7e945696801aacd62513"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Publication",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"Procesadores, HTML y CSS\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3001/blogActivity/v1/publication/deletePublication/681d8b7a09d682437ca0905f",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"blogActivity",
+								"v1",
+								"publication",
+								"deletePublication",
+								"681d8b7a09d682437ca0905f"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Comment",
+			"item": [
+				{
+					"name": "Add Comment",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userName\":\"Devyn Tubac\",\r\n    \"textComment\": \"Hola Mundo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/blogActivity/v1/comment/681c17ac3768de4288179543/addComment",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"blogActivity",
+								"v1",
+								"comment",
+								"681c17ac3768de4288179543",
+								"addComment"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Comment",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/blogActivity/v1/comment/681c17ac3768de4288179543/comments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"blogActivity",
+								"v1",
+								"comment",
+								"681c17ac3768de4288179543",
+								"comments"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

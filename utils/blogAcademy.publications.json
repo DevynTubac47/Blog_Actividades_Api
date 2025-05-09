@@ -1,0 +1,136 @@
+[{
+  "_id": {
+    "$oid": "681d7e945696801aacd62513"
+  },
+  "title": "Procesadores, HTML y CSS",
+  "description": "En el mundo del desarrollo web, HTML y CSS son las tecnologías fundamentales que permiten estructurar y diseñar páginas web. Sin embargo, con el tiempo han surgido herramientas como los preprocesadores de CSS que mejoran la eficiencia, organización y mantenimiento del código.",
+  "course": "Tecnología",
+  "dateCreated": {
+    "$date": "2025-05-09T04:03:32.249Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:03:32.268Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:58:18.306Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d7fb95696801aacd62523"
+  },
+  "title": "¿Qué es una API?",
+  "description": "Una API (Interfaz de Programación de Aplicaciones, por sus siglas en inglés) es un conjunto de reglas y definiciones que permite que diferentes aplicaciones se comuniquen entre sí. Las APIs definen cómo los programas interactúan entre sí, permitiendo que uno solicite información o realice acciones en otro sistema, sin necesidad de conocer los detalles internos de ese sistema.",
+  "course": "Tecnología",
+  "dateCreated": {
+    "$date": "2025-05-09T04:08:25.181Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:08:25.182Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:08:25.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d816b5696801aacd62532"
+  },
+  "title": "NodeJS y React: La combinación perfecta para aplicaciones web modernas",
+  "description": "En el desarrollo web actual, NodeJS y React se han convertido en un estándar para construir aplicaciones escalables, rápidas y eficientes. Aunque cumplen funciones diferentes, cuando se utilizan juntos, ofrecen un entorno de desarrollo robusto y flexible.",
+  "course": "Tecnología",
+  "dateCreated": {
+    "$date": "2025-05-09T04:15:39.806Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:15:39.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:15:39.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d83005696801aacd62540"
+  },
+  "title": "API - Venta Online",
+  "description": "Este proyecto se centra en el desarrollo de una API web implementada en NodeJS, destinada a gestionar el registro de ventas, productos en línea y otras operaciones comerciales de una empresa. La aplicación se estructura en dos secciones principales, administrador y cliente, cada uno con funcionalidades específicas.",
+  "course": "Taller",
+  "dateCreated": {
+    "$date": "2025-05-09T04:22:24.883Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:22:24.885Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:22:24.885Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d83f25696801aacd62551"
+  },
+  "title": "API - Interfer",
+  "description": "Esta API permitirá a las empresas registrar sus datos, incluyendo información crucial como su nivel de impacto, años de trayectoria y categoría empresarial. Además, se busca que esta API genere automáticamente un reporte en formato Excel, que reúna de manera organizada y accesible la información de todas las empresas registradas en el sistema. Este reporte será una herramienta valiosa para el análisis y la toma de decisiones estratégicas de Interfer",
+  "course": "Taller",
+  "dateCreated": {
+    "$date": "2025-05-09T04:26:26.345Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:26:26.345Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:26:26.345Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d84cb5696801aacd6255f"
+  },
+  "title": "Sistema de Gestión Hotelera ",
+  "description": "Es una aplicación web que funciona como una plataforma centralizada para la gestión hotelera. Esta aplicación deberá ofrecer funcionalidades completas para la gestión de hotel es, habitaciones y eventos asociados. Es  una herramienta digital que permita a los usuarios buscar hoteles, visualizar habitaciones disponibles, reservar estadías y acceder a información detallada sobre eventos en los hoteles registrados en la plataforma.",
+  "course": "Taller",
+  "dateCreated": {
+    "$date": "2025-05-09T04:30:03.490Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:30:03.491Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:30:03.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d864c5696801aacd6256e"
+  },
+  "title": "API - Administración de Alumnos",
+  "description": "El proyecto consiste en una aplicación de ambiente web (solamente Backend) la cual servirá para poder llevar la administración del control de alumnos de un centro educativo. Todo lo que se le pedirá debe trabajarse con NodeJS, MongoDB y Express. De ahí en más usted es libre de utilizar cualquier otro framework o librería que usted desee utilizar. (Librerías adicionales a utilizar: Bcrypt – Mongoose – JWT) El sistema deberá contar con dos roles (el rol es un campo del modelo): TEACHER_ROLE / STUDENT_ROLE El registro de alumno y maestro son diferentes. ",
+  "course": "Practica Supervisada",
+  "dateCreated": {
+    "$date": "2025-05-09T04:36:28.751Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:36:28.751Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:36:28.751Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681d875c5696801aacd62581"
+  },
+  "title": "Almacenadora Web",
+  "description": "El objetivo de este proyecto es una aplicación web para la administración de una almacenadora de productos. Este software permitirá a los usuarios gestionar el inventario, monitorizar el movimiento de productos, y llevar un control detallado de entradas y salidas en la almacenadora. Los usuarios clave de esta aplicación serán administradores de la almacenadora y empleados encargados de actualizar la información de inventario.",
+  "course": "Practica Supervisada",
+  "dateCreated": {
+    "$date": "2025-05-09T04:41:00.876Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-09T04:41:00.883Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-09T04:41:00.883Z"
+  }
+}]
